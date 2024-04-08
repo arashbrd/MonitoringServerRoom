@@ -20,7 +20,7 @@ def SendEmail(TOemailAdress,Subject,Message):
         message = Message
         msg.attach( MIMEText(message, 'plain') )
 
-        server = smtplib.SMTP('164.138.23.20',25)
+        server = smtplib.SMTP('0.0.0.0)
         # server.starttls()
 
         server.login(msg['From'], password)
