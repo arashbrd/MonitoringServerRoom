@@ -13,8 +13,8 @@ from zeep import Client
 from zeep.transports import Transport
 def MagfaSendSMS(unicode_string,mob_num):
     # credentials
-    username = "itfasa_41625"
-    password = "UtQ4MoVsGEKbHAEP"
+    username = "USERNAME"
+    password = "PASS"
     domain = "fums"
 
     # session
